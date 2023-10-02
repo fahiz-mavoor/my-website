@@ -1,0 +1,335 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: face;
+    src: url(font/Family.otf);
+}
+.container{
+    display: flex;
+    width: 95%;
+    height: 670px;
+    background-image:url(image/evie-s-bSVGnUCk4tk-unsplash.jpg);
+    background-size: cover;
+    padding: 2.5%;
+    align-items: center;
+
+}
+.second{
+    display: flex;
+    width: 95%;
+    height: 90%;
+    margin: 2.5%;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-bottom: 70px;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: max-content max-content;
+    
+}
+video{
+    width: 560px;
+    height: 360px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+
+    
+}
+iframe video{
+    width: 100%;
+    height: 100%;
+}
+.sign{
+    width: 250px;
+    height: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    margin-left: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+.sign h2{
+    color: #000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.sign label{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.sign input{
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 1px solid;
+    height: 20px;
+    padding-top: 10px;
+
+
+}
+
+
+.second h1{
+    font-family: face;
+    font-size: 60px;
+    font-weight: 900px;
+    margin-left: 200px;
+    color: #000;
+    margin-top: 150px;
+}
+.second span{
+    color: rgba(0, 255, 68, 0.991);
+    font-size: 70px;
+    margin-left: 150px;
+}
+.second p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 12px;
+    text-align: left;
+    
+}
+.lists{
+    width: 400px;
+    height: 82%;
+    background-color: #fbf9f9;
+    margin-left: 40px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+  
+.lists table img{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+/* therd */
+.therd{
+    width: 95%;
+    height: 700px;
+    padding: 2.5%;
+    background-image: url(image/madhuri-mohite-ElXQPv8wupQ-unsplash.jpg);
+    background-size: cover;
+}
+.content{
+    width: 30%;
+    height: 300px;
+    margin: 5%;
+    padding: 20px;
+}
+audio{
+    padding: px;
+    background-color: #fc050500;
+    -webkit-transform: scale(1.05);
+-moz-transform: scale(1.05);
+transform: scale(1.05);
+-webkit-border-radius:10px 10px 10px 10px ;
+height: 50px;
+border: 1px solid #000;
+
+
+}
+audio::-webkit-media-controls-timeline {
+    background-color:red;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  audio::-webkit-media-controls-play-button,
+  audio::-webkit-media-controls-panel {
+  background-color: #fbf9f9;
+  color: #fbf9f9;
+  }
+  .controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .player-button {
+    background-color: transparent;
+    border: 0;
+    width: var(--player-button-width);
+    height: var(--player-button-width);
+    cursor: pointer;
+    padding: 0;
+  }
+  .anmation{
+    width: 560px;
+    height: 80px;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: -10px;
+    margin-left: 50px;
+  }
+  .show{
+    width: 530px;
+    height: 3px;
+    background-color: #fff;
+    margin: 15px;
+    margin-top: 40px;
+    border-radius: 10px;
+    animation: lefttoright 45s;
+  }
+  @keyframes lefttoright{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100%;
+    }
+  }
+  iframe{
+    margin: -10px;
+    margin-left: 40px;
+  }
+  /* second page */
+  .con{
+    margin: 0;
+    width: 100%;
+    height: 800px;
+    background-color: #fff;
+    position:absolute;
+  }
+  header{
+    width: 98%;
+    height: 100px;
+    margin: 1%;
+    background-color:#239939;
+    border-radius: 10px;
+    position: relative;
+  }
+  header h1{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  main{
+    width: 98%;
+    height: 600px;
+    position: absolute;
+background-image: url(image/yiqun-tang-3o7O_6fi7Qc-unsplash.jpg);   
+background-size: cover;
+ margin: 1%;
+    border-radius: 10px;
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
+}
+  main form
+  {
+    margin-top: 100px;
+  }
+  main .group{
+    width: 400px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    backdrop-filter: blur(10px);
+    color: #fff;
+
+    display: grid;
+    grid-template-columns:1fr 1fr;
+  }
+/* .left{
+    width: 50px;
+    height: 50px;
+    background-color: #fbf9f9;
+    z-index: 5;
+  } */
+  main ul{
+    list-style: none;
+  }
+.group{
+    margin: 20px;
+}
+  .group h3{
+    margin: 2px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .group input{
+    width: 90%;
+    height: 80%;
+    border: 1px solid #000;
+    border-radius: 2px;
+    margin-top: 1px;
+  }
+  .group .bt ul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 300px;
+   display: grid;
+   font-size: 15px;
+   margin-top: 5px;
+
+   grid-template-columns: max-content max-content max-content max-content;
+  }
+  .group .bt li
+  {
+    
+    display: inline;
+  }
+  .group .bt label{
+    width: 60px;
+  }
+  .group select{
+    width: 90%;
+    margin-top: 5px;
+
+  }
+  .group option{
+    height: 300px;
+    width: 100px;
+  }
+  .group label{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    margin-left: 50px;
+  }
+  .group .ch{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    display: flex;
+    margin-left: -80px;
+    
+}
+main img{
+    margin-top: 0px;
+    margin-left: 200px;
+}
+button{
+    width: 50px;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    margin-left: 00px;
+    margin-top: 100px;
+}
+footer {
+   position:sticky ;
+  width: 100%;
+  height: 300px;
+  color:#000;
+  margin-top: 700px;
+  font-family: cursive;
+}
